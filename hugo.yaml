@@ -1,5 +1,5 @@
 baseURL: ''
-title: TailBliss
+title: SnT Council
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -47,7 +47,7 @@ markup:
 
 params:
   author: Nusser Studios
-  authorimage: ../assets/images/global/author.webp
+  authorimage: ../assets/images/global/our-mission.png
   og_image: /images/tailbliss-cover.png
   moto: "Super Fast, and Flexible"
   description: "A Hugo theme built with love, using TailwindCSS 3, Alpine.JS, and Hugo Pipes. Images are optimized for use with Hugo Pipes for WebP format."
@@ -112,55 +112,55 @@ params:
 
 menu:
   main:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
     - identifier: about
       name: About
       url: /about/
-      weight: 20
+      weight: 10
     - identifier: categories
       pre: dropdown
-      name: Categories
-      weight: 30
+      name: Entities
+      weight: 20
     - identifier: dropdown
       pre: complexdropdown
       name: Dropdown
+      weight: 30
+    - identifier: prose
+      name: Gallery
+      url: /prose/
       weight: 40
     - identifier: contact
       name: Contact
       url: /contact/
       weight: 50
   categories:
-    - identifier: prose
-      name: Prose
-      url: /prose/
-      weight: 10
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 20
     - identifier: blog
-      name: Blogs
+      name: Clubs
+      url: /categories/blog/
+      weight: 10
+    - identifier: blog2
+      name: Societies
+      url: /categories/blog/
+      weight: 20
+    - identifier: blog3
+      name: Teams
       url: /categories/blog/
       weight: 30
   dropdown:
     - identifier: appearance
       pre: stars # can be stars, comments or piechart
-      name: Appearance
+      name: Takneek
       post: "Easy customization"
       url: "#"
       weight: 10
     - identifier: comments
       pre: comments # can be stars, comments or piechart
-      name: Comments
+      name: Meet the Team
       post: "Check your latest comments"
       url: "#"
       weight: 20
     - identifier: analytics
       pre: piechart # can be stars, comments or piechart
-      name: Analytics
+      name: Resourses
       post: "Take a look at your statistics"
       url: "#"
       weight: 30
@@ -170,15 +170,15 @@ menu:
       url: /about/
       weight: 10
     - identifier: blog
-      name: Blog
+      name: Team
       url: /categories/blog/
       weight: 20
     - identifier: news
-      name: News
+      name: Takneek
       url: /categories/news/
       weight: 30
     - identifier: prose
-      name: Prose
+      name: Gallery
       url: /prose/
       weight: 40
     - identifier: contact
