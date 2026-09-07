@@ -242,11 +242,11 @@ on_spot:
     link: 'https://drive.google.com/file/d/1umdRkK9hPUxBV_MeZDhHv-ZzUR7aDw_Z/view?usp=sharing'
     image: '/takneek_2026/Takneek_2026.png'
     scores:
-      Aryans: 13
-      Nawabs: 2
-      Kshatriyas: 7
+      Aryans: 12
+      Nawabs: 0
+      Kshatriyas: 6
       Peshwas: 20
-      Shauryas: 4
+      Shauryas: 3
     summary:
 
   - title: 'FAC-Fundamental'
@@ -254,10 +254,10 @@ on_spot:
     image: '/takneek_2026/Takneek_2026.png'
     scores:
       Aryans: 4
-      Nawabs: 13
-      Kshatriyas: 20
-      Peshwas: 7
-      Shauryas: 2
+      Nawabs: 7
+      Kshatriyas: 13
+      Peshwas: 2
+      Shauryas: 20
     summary:
 
   - title: 'The Logic Trap'
